@@ -1,0 +1,6 @@
+report/
+.vscode/
+.idea/
+.pytest_cache/
+venv/
+report.html
