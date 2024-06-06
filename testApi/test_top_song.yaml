@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 新歌速递
+  title: 新歌速递
+  request:
+    method: get
+    url: http://localhost:3000/top/song
+    params:
+      type: 7
+  validate:
+    code: 200

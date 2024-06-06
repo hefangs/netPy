@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 专辑动态信息
+  title: 专辑动态信息
+  request:
+    method: get
+    url: http://localhost:3000/album/detail/dynamic
+    params:
+      id: 32311
+  validate:
+    code: 200

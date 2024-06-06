@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 数字专辑-新碟上架
+  title: 数字专辑-新碟上架
+  request:
+    method: get
+    url: http://localhost:3000/album/list
+    params:
+      limit: 30
+      offset: 0
+  validate:
+    code: 200

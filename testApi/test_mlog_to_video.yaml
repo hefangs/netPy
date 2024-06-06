@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 获取 mlog 播放地址
+  title: 获取 mlog 播放地址
+  request:
+    method: get
+    url: http://localhost:3000/mlog/to/video
+    params:
+      id: a1qOVPTWKS1ZrK8
+  validate:
+    code: 200

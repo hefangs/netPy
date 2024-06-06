@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 获取已收藏专辑列表
+  title: 获取已收藏专辑列表
+  request:
+    method: get
+    url: http://localhost:3000/album/sublist
+    params:
+      limit: 25
+      offset: 1
+  validate:
+    code: 200

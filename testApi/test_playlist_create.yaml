@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 新建歌单
+  title: 新建歌单
+  request:
+    method: get
+    url: http://localhost:3000/playlist/create
+    params:
+      name: 测试新建歌单
+      privacy: 10
+      type: VIDEO
+  validate:
+    code: 200

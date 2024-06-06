@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 删除视频歌单里的视频
+  title: 删除视频歌单里的视频
+  request:
+    method: get
+    url: http://localhost:3000/playlist/track/delete
+    params:
+      pid: 1
+      ids: 1234,5678
+  validate:
+    code: 200

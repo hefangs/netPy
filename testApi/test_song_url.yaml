@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 获取音乐 url
+  title: 获取音乐 url
+  request:
+    method: get
+    url: http://localhost:3000/song/url
+    headers:
+    params:
+      id: 1877996649,1893266013
+  validate:
+    code: 200

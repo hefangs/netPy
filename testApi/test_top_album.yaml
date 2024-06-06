@@ -1,0 +1,15 @@
+- feature: 用户登录
+  story: 新碟上架
+  title: 新碟上架
+  request:
+    method: get
+    url: http://localhost:3000/top/album
+    params:
+      area: ZH
+      type: hot
+      year: 2024
+      month: 06
+      offset: 0
+      limit: 10
+  validate:
+    code: 200

@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 曲风详情
+  title: 曲风详情
+  request:
+    method: get
+    url: http://localhost:3000/style/preference
+  validate:
+    code: 200

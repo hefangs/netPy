@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 云贝推歌
+  title: 云贝推歌
+  request:
+    method: get
+    url: http://localhost:3000/yunbei/rcmd/song
+    params:
+      id: 65528
+      reason: test
+      yunbeiNum: 10
+  validate:
+    code: 200

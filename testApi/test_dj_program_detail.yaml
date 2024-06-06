@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 电台 - 节目详情
+  title: 电台 - 节目详情
+  request:
+    method: get
+    url: http://localhost:3000/dj/program/detail
+    params:
+      id: 1367665101
+  validate:
+    code: 200

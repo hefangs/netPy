@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 黑胶时光机
+  title: 黑胶时光机
+  request:
+    method: get
+    url: http://localhost:3000/vip/timemachine
+    params:
+      startTime: 1638288000000
+      endTime: 1640966399999
+      limit: 60
+  validate:
+    code: 200

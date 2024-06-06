@@ -1,0 +1,25 @@
+- feature: 用户登录
+  story: 电台 - 新晋电台榜/热门电台榜
+  title: 电台 - 新晋电台榜/热门电台榜
+  request:
+    method: get
+    url: http://localhost:3000/dj/toplist
+    params:
+      limit: 100
+      offset: 0
+      type: new #new 为新晋电台榜
+  validate:
+    code: 200
+
+- feature: 用户登录
+  story: 电台 - 新晋电台榜/热门电台榜
+  title: 电台 - 新晋电台榜/热门电台榜
+  request:
+    method: get
+    url: http://localhost:3000/dj/toplist
+    params:
+      limit: 100
+      offset: 0
+      type: hot #hot为热门电台榜
+  validate:
+    code: 200

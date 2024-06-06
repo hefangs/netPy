@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 电台 - 今日优选
+  title: 电台 - 今日优选
+  request:
+    method: get
+    url: http://localhost:3000/dj/today/perfered
+  validate:
+    code: 200

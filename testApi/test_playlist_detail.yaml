@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 相关歌单推荐
+  title: 相关歌单推荐
+  request:
+    method: get
+    url: http://localhost:3000/playlist/detail
+    params:
+      id: 504353039
+  validate:
+    code: 200

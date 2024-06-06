@@ -1,0 +1,7 @@
+- feature: 用户登录
+  story: 热门歌单分类
+  title: 热门歌单分类
+  request:
+    method: get
+    url: http://localhost:3000/playlist/hot
+    code: 200

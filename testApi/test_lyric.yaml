@@ -1,0 +1,23 @@
+- feature: 用户登录
+  story: 获取歌词
+  title: 获取歌词
+  request:
+    method: get
+    base_url: http://localhost:3000
+    endpoint: /lyric
+    params:
+      id: 1877996649
+  validate:
+    code: 200
+
+- feature: 用户登录
+  story: 获取逐字歌词
+  title: 获取逐字歌词
+  request:
+    method: get
+    base_url: http://localhost:3000
+    endpoint: /lyric/new
+    params:
+      id: 1877996649
+  validate:
+    code: 200

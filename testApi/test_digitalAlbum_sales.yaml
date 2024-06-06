@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 数字专辑销量
+  title: 数字专辑销量
+  request:
+    method: get
+    url: http://localhost:3000/digitalAlbum/sales
+    params:
+      ids: 120605500,125080528
+  validate:
+    code: 200

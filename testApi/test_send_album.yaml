@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 发送私信(带专辑)
+  title: 发送私信(带专辑)
+  request:
+    method: get
+    url: http://localhost:3000/send/album
+    params:
+      user_ids: 32953014
+      msg: test
+      id: 351318
+  validate:
+    code: 200

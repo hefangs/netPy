@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 曲风-歌手
+  title: 曲风-歌手
+  request:
+    method: get
+    url: http://localhost:3000/style/artist
+    params:
+      tagId: 1000
+      cursor: 0
+      size: 20
+  validate:
+    code: 200

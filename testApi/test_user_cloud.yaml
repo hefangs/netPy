@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 云盘
+  title: 云盘
+  request:
+    method: get
+    url: http://localhost:3000/user/cloud
+    params:
+      limit: 30
+      offset: 0
+  validate:
+    code: 200

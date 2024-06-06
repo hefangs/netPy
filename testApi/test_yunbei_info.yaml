@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 云贝账户信息
+  title: 云贝账户信息
+  request:
+    method: get
+    url: http://localhost:3000/yunbei/info
+  validate:
+    code: 200

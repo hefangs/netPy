@@ -1,0 +1,12 @@
+- feature: 用户
+  story: 获取用户
+  title: 更新用户头像
+  request:
+    method: get
+    url: http://localhost:3000/playlist/cover/update
+    headers:
+      Content-Type: multipart/form-data
+    params:
+      imgSize: 200
+  validate:
+    code: 200

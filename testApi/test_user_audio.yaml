@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 用户电台
+  title: 用户电台
+  request:
+    method: get
+    url: http://localhost:3000/user/audio
+    params:
+      uid: 526380588
+  validate:
+    code: 200

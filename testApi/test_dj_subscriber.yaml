@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 电台订阅者列表
+  title: 电台订阅者列表
+  request:
+    method: get
+    url: http://localhost:3000/dj/subscriber
+    params:
+      id: 335425050
+      time:
+      limit: 20
+  validate:
+    code: 200

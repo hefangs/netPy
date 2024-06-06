@@ -1,0 +1,8 @@
+- feature: 用户
+  story: 获取国家编码列表
+  title: 获取国家编码列表
+  request:
+    method: get
+    url: http://localhost:3000/countries/code/list
+  validate:
+    code: 200

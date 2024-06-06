@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 获取历史日推可用日期列表
+  title: 获取历史日推可用日期列表
+  request:
+    method: get
+    url: http://localhost:3000/history/recommend/songs
+  validate:
+    code: 200

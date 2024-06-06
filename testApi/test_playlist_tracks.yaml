@@ -1,0 +1,25 @@
+- feature: 用户登录
+  story: 对歌单添加或删除歌曲
+  title: 对歌单添加或删除歌曲
+  request:
+    method: get
+    url: http://localhost:3000/playlist/tracks
+    params:
+      op: add
+      pid: 1
+      tracks: 123456789
+  validate:
+    code: 200
+
+- feature: 用户登录
+  story: 对歌单添加或删除歌曲
+  title: 对歌单添加或删除歌曲
+  request:
+    method: get
+    url: http://localhost:3000/playlist/tracks
+    params:
+      op: del
+      pid: 1
+      tracks: 123456789
+  validate:
+    code: 200

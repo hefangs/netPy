@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 云盘数据详情
+  title: 云盘数据详情
+  request:
+    method: get
+    url: http://localhost:3000/user/cloud/detail
+    params:
+      id: 5374627
+  validate:
+    code: 200

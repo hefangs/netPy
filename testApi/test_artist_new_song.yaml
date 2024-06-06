@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 关注歌手新歌
+  title: 关注歌手新歌
+  request:
+    method: get
+    url: http://localhost:3000/artist/new/song
+    params:
+      limit: 20
+      before:
+  validate:
+    code: 200

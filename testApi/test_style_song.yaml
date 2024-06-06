@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 曲风-歌曲
+  title: 曲风-歌曲
+  request:
+    method: get
+    url: http://localhost:3000/style/song
+    params:
+      tagId: 1000
+      cursor: 0
+      sort: 0
+  validate:
+    code: 200

@@ -1,0 +1,10 @@
+- feature: 用户
+  story: 获取热门话题
+  title: 获取热门话题
+  request:
+    method: get
+    url: http://localhost:3000/hot/topic
+  extract:
+    actId: $.hot[0].actId
+  validate:
+    code: 200

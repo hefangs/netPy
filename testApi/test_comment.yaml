@@ -1,0 +1,27 @@
+- feature: 用户登录
+  story: 发送评论
+  title: 发送评论
+  request:
+    method: get
+    url: http://localhost:3000/comment
+    params:
+      t: 1
+      type: 1
+      id: 5436712
+      content: test
+  validate:
+    code: 200
+
+- feature: 用户登录
+  story: 删除评论
+  title: 删除评论
+  request:
+    method: get
+    url: http://localhost:3000/comment
+    params:
+      t: 0
+      type: 1
+      id: 5436712
+      commentId: test
+  validate:
+    code: 200

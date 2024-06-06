@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 喜欢音乐
+  title: 喜欢音乐
+  request:
+    method: get
+    url: http://localhost:3000/like
+    params:
+      id: 347230
+  validate:
+    code: 200

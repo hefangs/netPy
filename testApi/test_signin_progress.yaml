@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 签到进度
+  title: 签到进度
+  request:
+    method: get
+    url: http://localhost:3000/signin/progress
+    params:
+      limit: 100
+  validate:
+    code: 200

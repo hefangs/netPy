@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 数字专辑详情
+  title: 数字专辑详情
+  request:
+    method: get
+    url: http://localhost:3000/album/detail
+    params:
+      id: 84547195
+  validate:
+    code: 200

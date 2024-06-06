@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 获取相似歌单
+  title: 获取相似歌单
+  request:
+    method: get
+    url: http://localhost:3000/simi/playlist
+    params:
+      id: 347230
+  validate:
+    code: 200

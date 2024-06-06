@@ -1,0 +1,13 @@
+- feature: 用户登录
+  story: 歌曲评论
+  title: 歌曲评论
+  request:
+    method: get
+    url: http://localhost:3000/comment/music
+    params:
+      id: 1877996649
+      limit: 20
+      offset: 0
+      before:
+  validate:
+    code: 200

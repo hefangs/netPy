@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 私人 FM
+  title: 私人 FM
+  request:
+    method: get
+    url: http://localhost:3000/personal_fm
+  validate:
+    code: 200

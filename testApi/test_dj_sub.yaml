@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 电台 - 订阅
+  title: 电台 - 订阅
+  request:
+    method: get
+    url: http://localhost:3000/dj/sub
+    params:
+      rid: 336355127
+  validate:
+    code: 200

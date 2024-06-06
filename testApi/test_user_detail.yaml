@@ -1,0 +1,10 @@
+- feature: 用户
+  story: 发送验证码
+  title: 发送验证码
+  request:
+    method: get
+    url: http://localhost:3000/user/detail
+    params:
+      uid: ${extract(uid)}
+  validate:
+    code: 200

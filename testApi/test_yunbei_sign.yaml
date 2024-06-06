@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 云贝签到
+  title: 云贝签到
+  request:
+    method: get
+    url: http://localhost:3000/yunbei/sign
+  validate:
+    code: 200

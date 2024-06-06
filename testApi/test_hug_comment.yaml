@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 抱一抱评论
+  title: 抱一抱评论
+  request:
+    method: get
+    url: http://localhost:3000/hug/comment
+    params:
+      uid: 285516405
+      cid: 1167145843
+      sid: 863481066
+  validate:
+    code: 200

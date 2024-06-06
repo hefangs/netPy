@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 获取歌单所有歌曲
+  title: 获取歌单所有歌曲
+  request:
+    method: get
+    url: http://localhost:3000/playlist/detail/dynamic
+    params:
+      id: 504353039
+  validate:
+    code: 200

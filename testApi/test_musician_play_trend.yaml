@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 音乐人播放趋势
+  title: 音乐人播放趋势
+  request:
+    method: get
+    url: http://localhost:3000/musician/play/trend
+    params:
+      startTime: 2024-05-01
+      endTime: 2024-05-30
+  validate:
+    code: 200

@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 云盘歌曲信息匹配纠正
+  title: 云盘歌曲信息匹配纠正
+  request:
+    method: get
+    url: http://localhost:3000/cloud/match
+    params:
+      uid: 5374627
+      sid: 1
+      asid: 1
+  validate:
+    code: 200

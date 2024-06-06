@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 音乐人数据概况
+  title: 音乐人数据概况
+  request:
+    method: get
+    url: http://localhost:3000/musician/data/overview
+  validate:
+    code: 200

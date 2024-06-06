@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 获取每日推荐歌曲
+  title: 获取每日推荐歌曲
+  request:
+    method: get
+    url: http://localhost:3000/recommend/songs/dislike
+    params:
+      id: 168091
+  validate:
+    code: 200

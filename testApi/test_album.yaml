@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 获取专辑内容
+  title: 获取专辑内容
+  request:
+    method: get
+    url: http://localhost:3000/album
+    params:
+      id: 32311
+  validate:
+    code: 200

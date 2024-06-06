@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 音乐人任务
+  title: 音乐人任务
+  request:
+    method: get
+    url: http://localhost:3000/musician/tasks
+  validate:
+    code: 200

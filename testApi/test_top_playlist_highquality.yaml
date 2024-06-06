@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 获取精品歌单
+  title: 获取精品歌单
+  request:
+    method: get
+    url: http://localhost:3000/top/playlist/highquality
+    params:
+      cat: 全部
+      limit: 10
+      before:
+  validate:
+    code: 200

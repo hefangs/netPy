@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 通知 - 私信
+  title: 通知 - 私信
+  request:
+    method: get
+    url: http://localhost:3000/msg/private
+    params:
+      limit: 30
+      offset: 0
+  validate:
+    code: 200

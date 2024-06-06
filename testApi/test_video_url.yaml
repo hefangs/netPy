@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 获取视频播放地址
+  title: 获取视频播放地址
+  request:
+    method: get
+    url: http://localhost:3000/video/url
+    params:
+      id: 89ADDE33C0AAE8EC14B99F6750DB954D
+  validate:
+    code: 200

@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 最新 mv
+  title: 最新 mv
+  request:
+    method: get
+    url: http://localhost:3000/mv/first
+    params:
+      area: 内地
+      limit: 30
+  validate:
+    code: 200

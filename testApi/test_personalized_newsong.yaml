@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 推荐新音乐
+  title: 推荐新音乐
+  request:
+    method: get
+    url: http://localhost:3000/personalized/newsong
+    params:
+      limit: 10
+  validate:
+    code: 200

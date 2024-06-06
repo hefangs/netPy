@@ -1,0 +1,87 @@
+- feature: 用户登录
+  story: 搜索
+  title: 搜索
+  request:
+    method: get
+    base_url: http://localhost:3000
+    endpoint: /search
+    params:
+      keywords: 危险派对
+      limit: 30
+      offset: 0
+      type: 1
+  validate:
+    code: 200
+
+- feature: 用户登录
+  story: 搜索
+  title: 搜索
+  request:
+    method: get
+    base_url: http://localhost:3000
+    endpoint: /cloudsearch
+    params:
+      keywords: 危险派对
+      limit: 30
+      offset: 0
+      type: 1
+  validate:
+    code: 200
+
+- feature: 用户登录
+  story: 默认搜索关键词
+  title: 默认搜索关键词
+  request:
+    method: get
+    base_url: http://localhost:3000
+    endpoint: /search/default
+    params: {}
+  validate:
+    code: 200
+
+- feature: 用户登录
+  story: 热搜列表(简略)
+  title: 热搜列表(简略)
+  request:
+    method: get
+    base_url: http://localhost:3000
+    endpoint: /search/hot
+    params: {}
+  validate:
+    code: 200
+
+- feature: 用户登录
+  story: 热搜列表(详细)
+  title: 热搜列表(详细)
+  request:
+    method: get
+    base_url: http://localhost:3000
+    endpoint: /search/hot/detail
+    params: {}
+  validate:
+    code: 200
+
+- feature: 用户登录
+  story: 搜索建议
+  title: 搜索建议
+  request:
+    method: get
+    base_url: http://localhost:3000
+    endpoint: /search/suggest
+    params:
+      keywords: 危险派对
+      type: type
+  validate:
+    code: 200
+
+- feature: 用户登录
+  story: 搜索多重匹配
+  title: 搜索多重匹配
+  request:
+    method: get
+    base_url: http://localhost:3000
+    endpoint: /search/multimatch
+    params:
+      keywords: 危险派对
+  validate:
+    code: 200

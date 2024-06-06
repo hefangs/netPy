@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 通知 - 通知
+  title: 通知 - 通知
+  request:
+    method: get
+    url: http://localhost:3000/msg/notices
+    params:
+      limit: 30
+      lasttime:
+  validate:
+    code: 200

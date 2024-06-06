@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 网易出品 mv
+  title: 网易出品 mv
+  request:
+    method: get
+    url: http://localhost:3000/mv/exclusive/rcmd
+    params:
+      limit: 30
+      offset: 0
+  validate:
+    code: 200

@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 发送验证码
+  title: 发送验证码
+  request:
+    method: get
+    url: http://localhost:3000/captcha/sent
+    params:
+      phone: 15000840699
+  validate:
+    code: 200

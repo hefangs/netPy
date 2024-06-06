@@ -1,0 +1,13 @@
+- feature: 用户登录
+  story: video 评论
+  title: video 评论
+  request:
+    method: get
+    url: http://localhost:3000/comment/video
+    params:
+      id: 89ADDE33C0AAE8EC14B99F6750DB954D
+      limit: 20
+      offset: 0
+      before:
+  validate:
+    code: 200

@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 获取最近 5 个听了这首歌的用户
+  title: 获取最近 5 个听了这首歌的用户
+  request:
+    method: get
+    url: http://localhost:3000/simi/user
+    params:
+      id: 1893266013
+  validate:
+    code: 200

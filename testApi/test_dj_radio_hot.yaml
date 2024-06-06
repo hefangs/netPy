@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 电台 - 类别热门电台
+  title: 电台 - 类别热门电台
+  request:
+    method: get
+    url: http://localhost:3000/dj/radio/hot
+    params:
+      limit: 30
+      offset: 0
+      cateId: 2001
+  validate:
+    code: 200

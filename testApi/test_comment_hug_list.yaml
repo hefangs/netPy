@@ -1,0 +1,16 @@
+- feature: 用户登录
+  story: 评论抱一抱列表
+  title: 评论抱一抱列表
+  request:
+    method: get
+    url: http://localhost:3000/comment/hug/list
+    params:
+      uid: 285516405
+      cid: 1167145843
+      sid: 863481066
+      page: 1
+      cursor: 1
+      idCursor:
+      pageSize: 2
+  validate:
+    code: 200

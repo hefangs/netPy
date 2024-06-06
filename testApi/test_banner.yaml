@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: banner
+  title: banner
+  request:
+    method: get
+    url: http://localhost:3000/banner
+    params:
+      type: 0
+  validate:
+    code: 200

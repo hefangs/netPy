@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 获取视频标签列表
+  title: 获取视频标签列表
+  request:
+    method: get
+    url: http://localhost:3000/video/group/list
+  validate:
+    code: 200

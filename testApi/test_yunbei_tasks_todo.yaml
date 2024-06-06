@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 云贝 todo 任务
+  title: 云贝 todo 任务
+  request:
+    method: get
+    url: http://localhost:3000/yunbei/tasks/todo
+  validate:
+    code: 200

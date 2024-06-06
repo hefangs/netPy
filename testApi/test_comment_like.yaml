@@ -1,0 +1,13 @@
+- feature: 用户登录
+  story: 给评论点赞
+  title: 给评论点赞
+  request:
+    method: get
+    url: http://localhost:3000/comment/like
+    params:
+      id: 29178366
+      cid: 12840183
+      t: 1
+      type: 0
+  validate:
+    code: 200

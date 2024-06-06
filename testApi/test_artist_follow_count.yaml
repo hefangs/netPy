@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 歌手粉丝数量
+  title: 歌手粉丝数量
+  request:
+    method: get
+    url: http://localhost:3000/artist/follow/count
+    params:
+      id: 2116
+      limit: 20
+      offset: 0
+  validate:
+    code: 200

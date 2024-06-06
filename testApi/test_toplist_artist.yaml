@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 歌手榜
+  title: 歌手榜
+  request:
+    method: get
+    url: http://localhost:3000/toplist/artist
+    params:
+      type: 1
+  validate:
+    code: 200

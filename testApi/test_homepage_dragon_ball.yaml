@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 首页-发现-圆形图标入口列表
+  title: 首页-发现-圆形图标入口列表
+  request:
+    method: get
+    url: http://localhost:3000/homepage/dragon/ball
+  validate:
+    code: 200

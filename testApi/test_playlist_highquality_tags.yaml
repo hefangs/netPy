@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 精品歌单标签列表
+  title: 精品歌单标签列表
+  request:
+    method: get
+    url: http://localhost:3000/playlist/highquality/tags
+  validate:
+    code: 200

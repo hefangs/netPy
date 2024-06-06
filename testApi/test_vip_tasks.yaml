@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: vip 任务
+  title: vip 任务
+  request:
+    method: get
+    url: http://localhost:3000/vip/tasks
+  validate:
+    code: 200

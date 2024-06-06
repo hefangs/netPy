@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 推荐节目
+  title: 推荐节目
+  request:
+    method: get
+    url: http://localhost:3000/program/recommend
+    params:
+      limit: 10
+      offset: 0
+  validate:
+    code: 200

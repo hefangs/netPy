@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 最新专辑
+  title: 最新专辑
+  request:
+    method: get
+    url: http://localhost:3000/album/newest
+  validate:
+    code: 200

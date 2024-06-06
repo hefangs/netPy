@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 推荐 mv
+  title: 推荐 mv
+  request:
+    method: get
+    url: http://localhost:3000/personalized/mv
+  validate:
+    code: 200

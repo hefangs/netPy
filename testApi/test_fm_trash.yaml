@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 垃圾桶
+  title: 垃圾桶
+  request:
+    method: get
+    url: http://localhost:3000/fm_trash
+    params:
+      id: 347230
+  validate:
+    code: 200

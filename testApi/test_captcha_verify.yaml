@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 验证验证码
+  title: 验证验证码
+  request:
+    method: get
+    url: http://localhost:3000/captcha/verify
+    params:
+      phone: 15000840699
+      captcha: ${captcha}
+  validate:
+    code: 200

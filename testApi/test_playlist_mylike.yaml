@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 获取点赞过的视频
+  title: 获取点赞过的视频
+  request:
+    method: get
+    url: http://localhost:3000/playlist/mylike
+  validate:
+    code: 200

@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 获取歌手专辑
+  title: 获取歌手专辑
+  request:
+    method: get
+    url: http://localhost:3000/artist/album
+    params:
+      id: 6452
+      limit: 30
+      offset: 0
+  validate:
+    code: 200

@@ -1,0 +1,16 @@
+- feature: 用户
+  story: 用户数据
+  title: 更新用户信息
+  request:
+    method: get
+    url: http://localhost:3000/user/update
+    params:
+      gender: 0
+      birthday: 1525918298004
+      nickname: 测试用户1525918298004
+      province: 440000
+      signature: '这是一个测试用户'
+      city: 440300
+  response:
+  validate:
+    code: 200

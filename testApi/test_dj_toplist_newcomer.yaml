@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 电台 - 主播新人榜
+  title: 电台 - 主播新人榜
+  request:
+    method: get
+    url: http://localhost:3000/dj/toplist/newcomer
+    params:
+      limit: 100
+  validate:
+    code: 200

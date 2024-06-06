@@ -1,0 +1,11 @@
+- feature: 用户
+  story: 获取用户播放记录
+  title: 获取用户播放记录
+  request:
+    method: get
+    url: http://localhost:3000/user/record
+    params:
+      uid: ${extract(uid)}
+      type: 1
+  validate:
+    code: 200

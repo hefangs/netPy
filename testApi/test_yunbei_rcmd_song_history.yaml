@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 云贝推歌历史记录
+  title: 云贝推歌历史记录
+  request:
+    method: get
+    url: http://localhost:3000/yunbei/rcmd/song/history
+    params:
+      size: 20
+      cursor:
+  validate:
+    code: 200

@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 音乐百科 - 简要信息
+  title: 音乐百科 - 简要信息
+  request:
+    method: get
+    url: http://localhost:3000/song/wiki/summary
+    params:
+      id: 1958384591
+  validate:
+    code: 200

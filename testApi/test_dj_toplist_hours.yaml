@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 电台 - 24 小时主播榜
+  title: 电台 - 24 小时主播榜
+  request:
+    method: get
+    url: http://localhost:3000/dj/toplist/hours
+    params:
+      limit: 100
+  validate:
+    code: 200

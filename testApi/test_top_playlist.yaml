@@ -1,0 +1,13 @@
+- feature: 用户登录
+  story: 歌单 ( 网友精选碟 )
+  title: 歌单 ( 网友精选碟 )
+  request:
+    method: get
+    url: http://localhost:3000/top/playlist
+    params:
+      order: hot
+      limit: 10
+      offset: 0
+      cat: 流行
+  validate:
+    code: 200

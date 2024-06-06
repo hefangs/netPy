@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 云贝所有任务
+  title: 云贝所有任务
+  request:
+    method: get
+    url: http://localhost:3000/yunbei/tasks
+  validate:
+    code: 200

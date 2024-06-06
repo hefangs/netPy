@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 歌曲相关视频
+  title: 歌曲相关视频
+  request:
+    method: get
+    url: http://localhost:3000/mlog/music/rcmd
+    params:
+      songid: 114628
+      mvid: 5343930
+      limit: 10
+  validate:
+    code: 200

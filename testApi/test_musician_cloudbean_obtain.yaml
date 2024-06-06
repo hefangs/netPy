@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 领取云豆
+  title: 领取云豆
+  request:
+    method: get
+    url: http://localhost:3000/musician/cloudbean/obtain
+  validate:
+    code: 200

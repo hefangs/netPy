@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 获取歌单所有歌曲
+  title: 获取歌单所有歌曲
+  request:
+    method: get
+    url: http://localhost:3000/playlist/track/all
+    params:
+      id: 504353039
+      offset: 0
+      limit: 10
+  validate:
+    code: 200

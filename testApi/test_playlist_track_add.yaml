@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 收藏视频到视频歌单
+  title: 收藏视频到视频歌单
+  request:
+    method: get
+    url: http://localhost:3000/playlist/track/add
+    params:
+      pid: 1
+      ids: 1234,5678
+  validate:
+    code: 200

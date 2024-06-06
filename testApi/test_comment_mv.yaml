@@ -1,0 +1,13 @@
+- feature: 用户登录
+  story: mv 评论
+  title: mv 评论
+  request:
+    method: get
+    url: http://localhost:3000/comment/mv
+    params:
+      id: 10870419
+      limit: 20
+      offset: 0
+      before:
+  validate:
+    code: 200

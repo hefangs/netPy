@@ -1,0 +1,7 @@
+- feature: 用户登录
+  story: 收藏的 MV 列表
+  title: 收藏的 MV 列表
+  request:
+    method: get
+    url: http://localhost:3000/mv/sublist
+    code: 200

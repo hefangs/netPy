@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 内部版本接口
+  title: 内部版本接口
+  request:
+    method: get
+    url: http://localhost:3000/inner/version
+  validate:
+    code: 200

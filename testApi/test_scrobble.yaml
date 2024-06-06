@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 听歌打卡
+  title: 听歌打卡
+  request:
+    method: get
+    url: http://localhost:3000/scrobble
+    params:
+      id: 518066366
+      sourceid: 36780169
+      time: 291
+  validate:
+    code: 200

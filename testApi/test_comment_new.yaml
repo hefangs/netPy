@@ -1,0 +1,15 @@
+- feature: 用户登录
+  story: 新版评论接口
+  title: 新版评论接口
+  request:
+    method: get
+    url: http://localhost:3000/comment/new
+    params:
+      id: 1407551413
+      type: 0
+      pageNo: 1
+      pageSize: 20
+      sortType: 3 # 1:按推荐排序, 2:按热度排序, 3:按时间排序 sortType为 3 时且页数不是第一页时需传入,值为上一条数据的 time
+      cursor:
+  validate:
+    code: 200

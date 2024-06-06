@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 公开隐私歌单
+  title: 公开隐私歌单
+  request:
+    method: get
+    url: http://localhost:3000/playlist/privacy
+    params:
+      id: 3136952023
+  validate:
+    code: 200

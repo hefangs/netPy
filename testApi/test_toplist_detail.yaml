@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 所有榜单内容摘要
+  title: 所有榜单内容摘要
+  request:
+    method: get
+    url: http://localhost:3000/toplist/detail
+  validate:
+    code: 200

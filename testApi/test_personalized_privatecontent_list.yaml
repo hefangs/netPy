@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 独家放送列表
+  title: 独家放送列表
+  request:
+    method: get
+    url: http://localhost:3000/personalized/privatecontent/list
+    params:
+      limit: 60
+      offset: 0
+  validate:
+    code: 200

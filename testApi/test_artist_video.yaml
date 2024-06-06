@@ -1,0 +1,13 @@
+- feature: 用户登录
+  story: 获取歌手视频
+  title: 获取歌手视频
+  request:
+    method: get
+    url: http://localhost:3000/artist/video
+    params:
+      id: 2116
+      size: 10
+      order: 0
+      cursor: 0
+  validate:
+    code: 200

@@ -1,0 +1,13 @@
+- feature: 用户
+  story: 更新歌单
+  title: 更新歌单
+  request:
+    method: get
+    url: http://localhost:3000/playlist/update
+    params:
+      id: 10109048127
+      name: 我喜欢的音乐1
+      desc: 测试歌单描述~
+      tags: 日常
+  validate:
+    code: 200

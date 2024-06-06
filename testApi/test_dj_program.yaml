@@ -1,0 +1,13 @@
+- feature: 用户登录
+  story: 电台 - 节目
+  title: 电台 - 节目
+  request:
+    method: get
+    url: http://localhost:3000/dj/program
+    params:
+      rid: 336355127
+      limit: 30
+      offset: 0
+      asc: false
+  validate:
+    code: 200

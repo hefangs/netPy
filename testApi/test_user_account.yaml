@@ -1,0 +1,8 @@
+- feature: 用户
+  story: 获取用户详情
+  title: 获取用户详情
+  request:
+    method: get
+    url: http://localhost:3000/user/account
+  validate:
+    code: 200

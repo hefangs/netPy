@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: mv 地址
+  title: mv 地址
+  request:
+    method: get
+    url: http://localhost:3000/mv/url
+    params:
+      id: 10896407
+      r: 1080
+  validate:
+    code: 200

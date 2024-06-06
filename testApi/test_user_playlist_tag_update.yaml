@@ -1,0 +1,13 @@
+- feature: 用户
+  story: 更新歌单名
+  title: 更新歌单名
+  request:
+    method: get
+    url: http://localhost:3000/playlist/tags/update
+    params:
+      id: 10109048127
+      tag: rock
+  validate:
+    code: 200
+  validate:
+    code: 200

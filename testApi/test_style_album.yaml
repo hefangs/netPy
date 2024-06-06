@@ -1,0 +1,13 @@
+- feature: 用户登录
+  story: 曲风-专辑
+  title: 曲风-专辑
+  request:
+    method: get
+    url: http://localhost:3000/style/album
+    params:
+      tagId: 1000
+      cursor: 0
+      size: 20
+      sort: 0
+  validate:
+    code: 200

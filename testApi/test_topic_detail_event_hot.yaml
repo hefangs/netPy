@@ -1,0 +1,10 @@
+- feature: 用户
+  story: 获取热门话题
+  title: 获取热门话题
+  request:
+    method: get
+    url: http://localhost:3000/topic/detail/event/hot
+    params:
+      actid: ${extract(actid)}
+  validate:
+    code: 200

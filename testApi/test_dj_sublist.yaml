@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 电台的订阅列表
+  title: 电台的订阅列表
+  request:
+    method: get
+    url: http://localhost:3000/dj/sublist
+  validate:
+    code: 200

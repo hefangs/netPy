@@ -1,0 +1,10 @@
+- feature: 登录
+  story: 登录状态
+  title: 获取登录状态
+  request:
+    method: get
+    url: http://localhost:3000/login/status
+  extract:
+    key: $.data.account.id
+  validate:
+    code: 200

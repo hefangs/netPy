@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 专辑评论
+  title: 专辑评论
+  request:
+    method: get
+    url: http://localhost:3000/comment/album
+    params:
+      id: 133202644
+      limit: 20
+  validate:
+    code: 200

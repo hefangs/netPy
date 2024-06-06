@@ -1,0 +1,13 @@
+- feature: 用户登录
+  story: 数字专辑&数字单曲-榜单
+  title: 数字专辑&数字单曲-榜单
+  request:
+    method: get
+    url: http://localhost:3000/album/songsaleboard
+    params:
+      limit: 30
+      offset: 0
+      albumType: 1
+      type: year
+  validate:
+    code: 200

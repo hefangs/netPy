@@ -1,0 +1,14 @@
+- feature: 用户登录
+  story: 楼层评论
+  title: 楼层评论
+  request:
+    method: get
+    url: http://localhost:3000/comment/floor
+    params:
+      parentCommentId: 6122430684
+      id: 1877996649
+      type: 0
+      limit: 20
+      time:
+  validate:
+    code: 200

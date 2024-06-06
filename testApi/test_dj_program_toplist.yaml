@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 电台 - 节目榜
+  title: 电台 - 节目榜
+  request:
+    method: get
+    url: http://localhost:3000/dj/program/toplist
+    params:
+      limit: 100
+      offset: 0
+  validate:
+    code: 200

@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 获取歌手单曲
+  title: 获取歌手单曲
+  request:
+    method: get
+    url: http://localhost:3000/artists
+    params:
+      id: 6452
+  validate:
+    code: 200

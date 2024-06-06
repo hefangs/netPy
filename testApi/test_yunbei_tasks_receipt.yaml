@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 云贝收入
+  title: 云贝收入
+  request:
+    method: get
+    url: http://localhost:3000/yunbei/tasks/receipt
+    params:
+      limit: 10
+      offset: 0
+  validate:
+    code: 200

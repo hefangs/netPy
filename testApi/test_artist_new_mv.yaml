@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 关注歌手新 MV
+  title: 关注歌手新 MV
+  request:
+    method: get
+    url: http://localhost:3000/artist/new/mv
+    params:
+      limit: 20
+      before:
+  validate:
+    code: 200

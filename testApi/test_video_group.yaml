@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 获取视频标签/分类下的视频
+  title: 获取视频标签/分类下的视频
+  request:
+    method: get
+    url: http://localhost:3000/video/group
+    params:
+      id: 9104
+      offset: 0
+  validate:
+    code: 200

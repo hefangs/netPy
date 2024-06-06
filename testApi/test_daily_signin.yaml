@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 签到
+  title: 签到
+  request:
+    method: get
+    url: http://localhost:3000/daily_signin
+  validate:
+    code: 200

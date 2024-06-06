@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 发送私信(带歌单)
+  title: 发送私信(带歌单)
+  request:
+    method: get
+    url: http://localhost:3000/send/playlist
+    params:
+      user_ids: 32953014
+      msg: test
+  validate:
+    code: 200

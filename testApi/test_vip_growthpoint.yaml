@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: vip 成长值
+  title: vip 成长值
+  request:
+    method: get
+    url: http://localhost:3000/vip/growthpoint
+  validate:
+    code: 200

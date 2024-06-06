@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 获取音乐 url - 新版
+  title: 获取音乐 url - 新版
+  request:
+    method: get
+    url: http://localhost:3000/check/music
+    params:
+      id: 1877996649
+  validate:
+    code: 200

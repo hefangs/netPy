@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 歌手粉丝
+  title: 歌手粉丝
+  request:
+    method: get
+    url: http://localhost:3000/artist/fans
+    params:
+      id: 2116
+  validate:
+    code: 200

@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 获取全部视频列表
+  title: 获取全部视频列表
+  request:
+    method: get
+    url: http://localhost:3000/video/timeline/all
+    params:
+      offset: 0
+  validate:
+    code: 200

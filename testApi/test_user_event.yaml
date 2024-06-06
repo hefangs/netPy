@@ -1,0 +1,10 @@
+- feature: 用户
+  story: 获取用户动态
+  title: 获取用户动态
+  request:
+    method: get
+    url: http://localhost:3000/user/event
+    params:
+      uid: ${extract(uid)}
+  validate:
+    code: 200

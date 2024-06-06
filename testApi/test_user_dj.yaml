@@ -1,0 +1,10 @@
+- feature: 用户
+  story: 获取用户电台
+  title: 获取用户电台
+  request:
+    method: get
+    url: http://localhost:3000/user/dj
+    params:
+      uid: ${extract(uid)}
+  validate:
+    code: 200

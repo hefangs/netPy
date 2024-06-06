@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 乐签信息
+  title: 乐签信息
+  request:
+    method: get
+    url: http://localhost:3000/sign/happy/info
+  validate:
+    code: 200

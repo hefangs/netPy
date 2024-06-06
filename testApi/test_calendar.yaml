@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 音乐日历
+  title: 音乐日历
+  request:
+    method: get
+    url: http://localhost:3000/calendar
+    params:
+      startTime: 1606752000000
+      endTime: 1609430399999
+  validate:
+    code: 200

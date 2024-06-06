@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 电台 - 付费精选
+  title: 电台 - 付费精选
+  request:
+    method: get
+    url: http://localhost:3000/dj/paygift
+    params:
+      limit: 30
+      offset: 0
+  validate:
+    code: 200

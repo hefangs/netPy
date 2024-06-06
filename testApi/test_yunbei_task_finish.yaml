@@ -1,0 +1,11 @@
+- feature: 用户登录
+  story: 云贝完成任务
+  title: 云贝完成任务
+  request:
+    method: get
+    url: http://localhost:3000/yunbei/task/finish
+    params:
+      userTaskId: 5146243240
+      depositCode: 0
+  validate:
+    code: 200

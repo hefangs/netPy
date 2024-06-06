@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 云村星评馆 - 简要评论
+  title: 云村星评馆 - 简要评论
+  request:
+    method: get
+    url: http://localhost:3000/starpick/comments/summary
+  validate:
+    code: 200

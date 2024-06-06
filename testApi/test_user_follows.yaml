@@ -1,0 +1,10 @@
+- feature: 用户
+  story: 获取用户关注列表
+  title: 获取用户关注列表
+  request:
+    method: get
+    url: http://localhost:3000/user/follows
+    params:
+      uid: ${extract(uid)}
+  validate:
+    code: 200

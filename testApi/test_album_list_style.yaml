@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 数字专辑-语种风格馆
+  title: 数字专辑-语种风格馆
+  request:
+    method: get
+    url: http://localhost:3000/album/list/style
+    params:
+      limit: 30
+      offset: 0
+      area: Z_H
+  validate:
+    code: 200

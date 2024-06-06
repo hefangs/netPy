@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 全部新碟
+  title: 全部新碟
+  request:
+    method: get
+    url: http://localhost:3000/album/new
+    params:
+      area: ZH
+      offset: 0
+      limit: 10
+  validate:
+    code: 200

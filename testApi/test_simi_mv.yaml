@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 相似 mv
+  title: 相似 mv
+  request:
+    method: get
+    url: http://localhost:3000/simi/mv
+    params:
+      id: 5436712
+  validate:
+    code: 200

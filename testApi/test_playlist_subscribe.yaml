@@ -1,0 +1,36 @@
+- feature: 用户登录
+  story: 收藏/取消收藏歌单
+  title: 收藏/取消收藏歌单
+  request:
+    method: get
+    url: http://localhost:3000/playlist/subscribe
+    params:
+      id: 3136952023
+      t: 1
+  validate:
+    code: 200
+
+- feature: 用户登录
+  story: 收藏/取消收藏歌单
+  title: 收藏/取消收藏歌单
+  request:
+    method: get
+    url: http://localhost:3000/playlist/subscribe
+    params:
+      id: 3136952023
+      t: 2
+  validate:
+    code: 200
+
+- feature: 用户登录
+  story: 收藏/取消收藏歌单
+  title: 收藏/取消收藏歌单
+  request:
+    method: get
+    url: http://localhost:3000/playlist/subscribe
+    params:
+      id: 3136952023
+      limit: 10
+      offset: 0
+  validate:
+    code: 200

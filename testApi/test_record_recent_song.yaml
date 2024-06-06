@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 最近播放-歌曲
+  title: 最近播放-歌曲
+  request:
+    method: get
+    url: http://localhost:3000/record/recent/song
+    params:
+      limit: 100
+  validate:
+    code: 200

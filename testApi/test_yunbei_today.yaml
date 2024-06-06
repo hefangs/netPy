@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 云贝今日签到信息
+  title: 云贝今日签到信息
+  request:
+    method: get
+    url: http://localhost:3000/yunbei/today
+  validate:
+    code: 200

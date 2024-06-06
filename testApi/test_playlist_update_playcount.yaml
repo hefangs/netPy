@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 歌单更新播放量
+  title: 歌单更新播放量
+  request:
+    method: get
+    url: http://localhost:3000/playlist/update/playcount
+    params:
+      id: 504353039
+  validate:
+    code: 200

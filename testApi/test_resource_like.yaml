@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 资源点赞( MV,电台,视频)
+  title: 资源点赞( MV,电台,视频)
+  request:
+    method: get
+    url: http://localhost:3000/resource/like
+    params:
+      type: 1
+      t: 1
+      id: 5436712
+  validate:
+    code: 200

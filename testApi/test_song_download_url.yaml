@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 获取客户端歌曲下载 url
+  title: 获取客户端歌曲下载 url
+  request:
+    method: get
+    url: http://localhost:3000/song/download/url
+    params:
+      id: 114628
+  validate:
+    code: 200

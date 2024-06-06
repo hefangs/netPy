@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 获取 VIP 信息
+  title: 获取 VIP 信息
+  request:
+    method: get
+    url: http://localhost:3000/vip/info
+    params:
+      id: 32953014
+  validate:
+    code: 200

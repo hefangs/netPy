@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 设置
+  title: 设置
+  request:
+    method: get
+    url: http://localhost:3000/setting
+  validate:
+    code: 200

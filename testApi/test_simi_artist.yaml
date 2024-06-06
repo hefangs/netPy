@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 获取相似歌手
+  title: 获取相似歌手
+  request:
+    method: get
+    url: http://localhost:3000/simi/artist
+    params:
+      id: 6452
+  validate:
+    code: 200

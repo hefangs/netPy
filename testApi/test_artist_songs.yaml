@@ -1,0 +1,13 @@
+- feature: 用户登录
+  story: 歌手全部歌曲
+  title: 歌手全部歌曲
+  request:
+    method: get
+    url: http://localhost:3000/artist/songs
+    params:
+      id: 6452
+      order: time
+      limit: 30
+      offset: 10
+  validate:
+    code: 200

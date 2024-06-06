@@ -1,0 +1,12 @@
+- feature: 用户登录
+  story: 私信内容
+  title: 私信内容
+  request:
+    method: get
+    url: http://localhost:3000/msg/private/history
+    params:
+      uid: 9003
+      limit: 30
+  response:
+  validate:
+    code: 200

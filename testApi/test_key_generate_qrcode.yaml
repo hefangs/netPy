@@ -1,0 +1,10 @@
+- feature: 用户登录
+  story: 二维码登录
+  title: 第二步需要通过key生成二维码
+  request:
+    method: get
+    url: http://localhost:3000/login/qr/create
+    params:
+      key: ${extract(unikey)}
+  validate:
+    code: 200

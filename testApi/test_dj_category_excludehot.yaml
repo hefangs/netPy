@@ -1,0 +1,8 @@
+- feature: 用户登录
+  story: 电台 - 非热门类型
+  title: 电台 - 非热门类型
+  request:
+    method: get
+    url: http://localhost:3000/dj/category/excludehot
+  validate:
+    code: 200
